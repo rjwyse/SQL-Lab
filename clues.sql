@@ -3,6 +3,7 @@
 -- so find the least populated country in Southern Europe, and we'll start looking for her there.
  
 -- Write SQL query here
+
 SELECT * FROM country
 WHERE region = 'Southern Europe'
 ORDER BY population ASC
